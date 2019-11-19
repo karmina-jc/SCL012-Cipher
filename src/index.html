@@ -6,10 +6,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+    <div class="logo">
+      <h1></h1>
     </div>
-    <script src="cipher.js"></script>
+    <div>
+     <p>Bienvenid@ a MeDecode, nuestra aplicación permite el cifrado y descifrado de información médica (recetas, exámenes, interconsultas, etc.), te invitamos a usar MeDecode cuando necesites enviar información de tus pacientes por medios digitales a colegas u otros especialistas y requieras resguardar su contenido.</p>
+    </div>
+    <div>      
+      <br>
+      <textarea type="text" id="textIn" class="informacion" rows="10" cols="50" placeholder="Ingresa tu texto aquí"></textarea>
+      <br>
+      <br>
+      <input id="offSet" type="number" required placeholder="Clave Numérica"/>
+      <br>
+      <br>
+      <button id="cifrar">Cifrar</button>
+      <button id="descifrar">Descifrar</button>
+      <br>
+      <br>
+      <textarea id="textExit" class="informacion" rows="10" cols="50"></textarea>
+      <br>
+      <br>    
+      <button id="botonCopiar" class="copiar">Copiar</button>
+      <button id="botonLimpiar" class="copiar">Limpiar</button>      
+    </div>
+     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
 </html>

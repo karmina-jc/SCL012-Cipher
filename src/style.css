@@ -1,1 +1,45 @@
-/* Acá va tu código */
+body {
+    text-align: center;
+    background-image: url("globalBackground.jpg");
+   }
+
+h1 {
+    color: #394a6d;
+    font-size: 40px;
+    padding: 100px;
+    margin: 5px 20px;
+    width: 17%;
+    display: inline-block;
+    background-image: url("logo.png");
+    justify-content: space-around;
+  } 
+  
+p {
+    background-color: #b2fcff;
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px 50px;    
+}
+
+button {
+    background-color: #009358;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin: 3px 5px;
+}
+button:hover {
+    background-color: #64b2cd;
+}
+
+.informacion {
+    display: inline-block;
+    padding: 2px;
+    border-color: black;
+
+}
+.copiar {
+    background-color: #3e64ff;
+}
