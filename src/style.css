@@ -18,9 +18,10 @@ p {
     background-color: #b2fcff;
     color: black;
     display: inline-block;
+    opacity: 85%;
     font-size: 20px;
     padding: 10px;
-    margin: 5px 50px;    
+    margin: 5px 150px;    
 }
 
 button {
@@ -33,11 +34,15 @@ button {
 button:hover {
     background-color: #64b2cd;
 }
-
+#offSet {
+    display: inline-block;
+    margin: 5px;
+}
 .informacion {
     display: inline-block;
     padding: 2px;
     border-color: black;
+    margin: 10px;
 
 }
 .copiar {
