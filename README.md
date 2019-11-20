@@ -19,7 +19,7 @@ Luego de una primera puesta a prueba de la aplicación con el squad opte por man
 - Los botones para cifrar y descifrar
 - El área donde se obtendrá el resultado del texto cifrado o descifrado 
 
-En una segunda instancia de feedback entre squads, se mencionó que copiar el texto resultante seleccionando manualmente el contenido podría derivar en perdida de información por lo que decidí agregar un botón con esta funcionalidad y otro para limpiar las áreas de texto y clave numérica para poder volver a usar los espacios nuevamente.
+En una segunda instancia de feedback entre squads, se mencionó que copiar el texto resultante seleccionando manualmente el contenido podría derivar en perdida de información por lo que decidí agregar un botón con esta funcionalidad y otro para limpiar las áreas de texto y recuadro de clave numérica para usar espacios nuevamente.
 
 - Botón que permite copiar el texto resultante. 
 - Botón para limpiar el contenido y volver a hacer uso de los espacios.
@@ -76,7 +76,7 @@ En cuanto a la estética y estilos de la aplicación, se buscó en repositorios 
 
 ## Por mejorar...
 
-Como parte del proceso se esperaba hacer test de usabilidad con usuarios que representaran el público objetivo  de la aplicación (profesionales del área de la salud), sin embargo, no se lograron concretar y quedarian pendientes para una próxima fase del proyecto.
+Como parte del proceso se esperaba realizar test de usabilidad con usuarios que representaran el público objetivo de la aplicación (profesionales del área de la salud), sin embargo, no se lograron concretar y quedaron pendientes para una próxima fase del proyecto.
 
 ### Esta página fue construida con:
 
