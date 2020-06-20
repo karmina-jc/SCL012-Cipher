@@ -1,6 +1,8 @@
 body {
     text-align: center;
     background-image: url("globalBackground.jpg");
+    background-repeat: no-repeat;
+    background-color: rgba(255, 245, 238, 0.897);
    }
 
 h1 {
@@ -11,6 +13,7 @@ h1 {
     width: 17%;
     display: inline-block;
     background-image: url("logo.png");
+    background-repeat: no-repeat;
     justify-content: space-around;
   } 
   
@@ -43,7 +46,6 @@ button:hover {
     padding: 2px;
     border-color: black;
     margin: 10px;
-
 }
 .copiar {
     background-color: #3e64ff;

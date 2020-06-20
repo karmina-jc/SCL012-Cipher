@@ -16,7 +16,7 @@ window.cipher = {
       } else {
         cifrado += str[inText];
       }
-      console.log(cifrado)
+    
     }
     return cifrado
     
@@ -40,8 +40,8 @@ window.cipher = {
       }
     
     }
-    console.log(descifrado);
+    
     return descifrado;
-  }  
+  }
 };
 //test return funciones https://www.youtube.com/watch?v=EWYU_DDSdi8
